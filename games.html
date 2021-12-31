@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<tittle> Games </tittle>
+	<style> 
+.container{
+     position:  relative;
+     width: 800px;
+     height: 800px;
+     margin: 300px;
+}
+.image{ 
+     display:  block;
+     width:  170%;
+     height:  100%; 
+ }
+
+.overlay{ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 170%;
+    opacity: 0;
+    transition: 0.5s ease ;
+    background-color: #5B74CD;
+ }
+.container:hover .overlay{
+	opacity: 1;
+}
+.text{ 
+    color:  black;
+    font-size:  100px;
+    position:  absolute; 
+    top:  50%;
+    left:  700px;
+    transform:  translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align:  center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+	</style>
+}
+}
+.button{
+
+     float:  right; 
+     border: 2px solid black;
+     background-color: #5B74CD;
+     color: #black;
+     font-size:  20px;
+     padding: 10px;
+}
+</head>
+<body>
+    <h1> My Game </h1>
+    <button onclick = "document.location= './index.html'"> Back </button>
+
+<table> 
+<tr>
+
+ <td> 
+ 	<div class = "container">
+    <img src = "https://images3.alphacoders.com/885/885750.jpg" class = "image">
+    <div class = "overlay">
+ 	<div class = "text"> Roblox
+    </div>
+  </div>
+ </div>
+ </td>
+
+<td>
+    <div class = "container"> 
+ 	<img src = "https://p4.wallpaperbetter.com/wallpaper/431/666/470/minecraft-video-games-pixels-wallpaper-preview.jpg" class = "image"> 
+    <div class = "overlay">
+   	<div class = "text"> Minecraft
+    </div>	
+  </div>
+ </div>
+ </td> 
+
+</tr>
+
+<tr>
+  
+<td> 
+    <div class = "container">
+    <img src = "https://c4.wallpaperflare.com/wallpaper/938/513/226/video-game-osu-tatakae-ouendan-osu-rhythm-hd-wallpaper-preview.jpg" class = "image">
+    <div class = "overlay">
+    <div class = "text"> Osu!
+    </div>
+  </div>
+ </div> 
+ </td>
+
+ <td>
+    <div class = "container">	
+    <img src = "https://images8.alphacoders.com/108/thumbbig-1081798.webp" class = "image">
+    <div class = "overlay">
+    <div class = "text"> Hitman III
+    </div>
+  </div>  
+ </div>
+ </td>
+
+</tr>
+</table>
+   
+
+     </body>
+   </html>
